@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Gradient background (light blue-green to light purple) -->
+    <!-- Top left - light blue-green -->
+    <path
+        android:fillColor="#B0E0E6"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    
+    <!-- Bottom right - light purple overlay -->
+    <path
+        android:fillColor="#DDA0DD"
+        android:pathData="M0,0 L108,108 L108,108 L0,108 Z"
+        android:fillAlpha="0.6" />
+    
+    <!-- Long shadow effect (dark shadow extending down and right) -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M18,90 L90,90 L96,96 L96,108 L24,108 L18,102 Z" />
+    <path
+        android:fillColor="#30000000"
+        android:pathData="M90,18 L90,90 L96,96 L102,90 L102,24 L96,18 Z" />
+    
+</vector>

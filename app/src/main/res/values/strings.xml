@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AI-NoteTaker</string>
+    <string name="openai_api_key">YOUR_API_KEY_HERE</string>
+</resources>
